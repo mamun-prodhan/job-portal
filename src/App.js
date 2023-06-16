@@ -5,6 +5,7 @@ import Button from "./components/Button/Button";
 import Steps from "./components/Steps/Steps";
 import PopularTrades from "./components/PopularTrades/PopularTrades";
 import Contractors from "./components/Contractors/Contractors";
+import Clients from "./components/Clients/Clients";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Steps></Steps>
       <PopularTrades></PopularTrades>
       <Contractors></Contractors>
+      <Clients></Clients>
     </div>
   );
 }
