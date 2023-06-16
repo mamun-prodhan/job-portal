@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../../assets/images/client.png";
 import img2 from "../../assets/icons/arrow.png";
+import Client from "../Client/Client";
 
 const Clients = () => {
 
@@ -39,7 +40,10 @@ const Clients = () => {
       </div>
       <div className="absolute flex justify-start transform -translate-y-1/2 w-2/5 left-10 md:left-24 md:top-3/4 top-3/4">
             {
-                clients.map((client, index) =>console.log(client))
+                clients.map((client, index) => <Client
+                key={index}
+                client={client}
+                ></Client>)
             }
       </div>
     </div>
