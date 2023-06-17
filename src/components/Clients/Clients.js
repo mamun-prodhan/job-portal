@@ -26,19 +26,19 @@ const Clients = () => {
         <img src={image} alt="photos" />
       </div>
       <div className="absolute flex justify-end transform -translate-y-1/2 left-10 md:left-24 top-32">
-        <p className="text-2xl mb-6">FOR CONTRACTORS</p>
+        <p className="text-2xl text-[#FFFFFF] mb-6">FOR CLIENTS</p>
       </div>
       <div className="absolute flex justify-end transform -translate-y-1/2 left-10 md:left-24 top-52">
         <h2 className="mb-3 text-2xl lg:text-5xl font-semibold text-[#FFFFFF]">
         Find talent <br /> your way 
         </h2>
       </div>
-      <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-10 md:left-24 top-80">
-        <p className="text-xl text-white hidden lg:block">
+      <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-10 md:left-24 top-72">
+        <p className="text-white hidden lg:block">
           Whether just starting out or looking to improve or grow your business, our expert advice can help you on the road to success.
         </p>
       </div>
-      <div className="absolute flex justify-start transform -translate-y-1/2 w-2/5 left-10 md:left-24 md:top-3/4 top-3/4">
+      <div className="absolute flex items-center transform -translate-y-1/2 w-5/6 left-10 md:left-24 md:top-3/4 top-3/4">
             {
                 clients.map((client, index) => <Client
                 key={index}
