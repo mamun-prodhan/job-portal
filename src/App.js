@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
-import Button from "./components/Button/Button";
 import Steps from "./components/Steps/Steps";
 import PopularTrades from "./components/PopularTrades/PopularTrades";
 import Contractors from "./components/Contractors/Contractors";
 import Clients from "./components/Clients/Clients";
+import TradeBrittany from "./components/TradeBrittany/TradeBrittany";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <PopularTrades></PopularTrades>
       <Contractors></Contractors>
       <Clients></Clients>
+      <TradeBrittany></TradeBrittany>
     </div>
   );
 }

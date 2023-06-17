@@ -8,7 +8,7 @@ const Trade = (props) => {
       <div>
         <img className="w-10" src={image} alt="service icon" />
       </div>
-      <div>
+      <div className="mt-2">
         <small>{title}</small>
       </div>
     </div>
