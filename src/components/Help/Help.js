@@ -13,7 +13,7 @@ const Help = () => {
           Reach out today for expert guidance and personalized solutions. We're
           here to help you achieve your goals.
         </p>
-        <button className="w-48 lg:w-52 h-10 lg:h-12 mt-6 border-2 border-[#4EA52F] text-[#4EA52F] rounded-md lg:rounded-lg uppercase font-normal lg:font-semibold">
+        <button className="w-48 lg:w-52 h-10 lg:h-12 mt-6 border-2 border-[#4EA52F] text-[#4EA52F] rounded-md lg:rounded-lg uppercase font-semibold">
             contact us
           </button>
       </div>

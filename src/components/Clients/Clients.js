@@ -23,7 +23,7 @@ const Clients = () => {
   return (
     <div className="relative mb-32">
       <div>
-        <img src={image} alt="photos" />
+        <img className="w-full rounded-xl" src={image} alt="photos" />
       </div>
       <div className="absolute flex justify-end transform -translate-y-1/2 left-10 md:left-24 top-32">
         <p className="text-2xl text-[#FFFFFF] mb-6">FOR CLIENTS</p>
