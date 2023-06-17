@@ -89,7 +89,7 @@ const PopularTrades = () => {
 
     return (
         <div className='mb-16 md:mb-24 p-6 bg-[#F8FAF7]'>
-             <h2 className='font-normal text-3xl lg:text-5xl text-center mb-6 lg:mb-12'>Popular trades</h2>
+             <h2 className='font-normal text-3xl lg:text-5xl text-center mb-12'>Popular trades</h2>
              <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-x-4 gap-y-10'>
                 {
                     tradesData.map((trade, index) => <Trade

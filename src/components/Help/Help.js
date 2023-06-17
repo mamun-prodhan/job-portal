@@ -3,7 +3,7 @@ import image from "../../assets/images/balloons.png";
 
 const Help = () => {
   return (
-    <div className="mb-16 md:mb-24 p-6 lg:flex flex-row-reverse items-center bg-[#F8FAF7] rounded-lg">
+    <div className="mb-16 md:mb-24 p-6 md:p-16 lg:p-6 lg:flex flex-row-reverse items-center bg-[#F8FAF7] rounded-lg">
       <div className="w-full lg:w-1/5">
         <img src={image} alt="help" />
       </div>
