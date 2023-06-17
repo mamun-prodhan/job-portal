@@ -3,7 +3,7 @@ import banner from "../../assets/images/banner.jpg";
 
 const Banner = () => {
   return (
-    <div className="mt-32 p-6 lg:p-0 flex-row-reverse lg:flex items-center">
+    <div className="mt-32 mb-16 lg:mb-24 p-6 lg:p-0 flex-row-reverse lg:flex items-center">
       <div className="lg:w-3/5">
         <img src={banner} alt="banner" />
       </div>

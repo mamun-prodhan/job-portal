@@ -6,7 +6,7 @@ import image4 from "../../assets/small_icon/favorite.png";
 
 const Contractors = () => {
   return (
-    <div className="flex-row-reverse lg:flex items-center bg-[#28534E] rounded-lg mb-32">
+    <div className="flex-row-reverse lg:flex items-center bg-[#28534E] rounded-lg mb-16 md:mb-24">
       {/* image div */}
       <div className="p-6 lg:w-1/2">
         <img className="w-100" src={image} alt="" />

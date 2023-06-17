@@ -16,22 +16,22 @@ const FindWork = () => {
   ];
 
   return (
-    <div className="mb-32 lg:flex">
-      <div className="w-full lg:w-1/2">
+    <div className="mb-16 md:mb-24 md:flex">
+      <div className="w-full md:w-1/2 rounded-lg">
         <img src={image} alt="" />
       </div>
-      <div className="p-6 lg:p-16  lg:w-1/2 text-[#FFFFFF] bg-[#2F56BC]">
+      <div className="p-6 md:p-16  md:w-1/2 text-[#FFFFFF] bg-[#2F56BC] rounded-r-lg">
         <p className="text-2xl mb-5">FOR CONTRACTORS</p>
-        <h2 className="mb-3 lg:mb-5 text-3xl lg:text-5xl font-semibold">
+        <h2 className="mb-3 md:mb-5 text-3xl md:text-5xl font-semibold">
           Find great <br />
           work
         </h2>
-        <p className="mb-3 lg:mb-5">
+        <p className="mb-3 md:mb-5">
           Whether just starting out or looking to improve or grow your business,
           our expert advice can help you on the road to success.
         </p>
         <hr className="mb-6 border border-solid border-[#FFFFFF]" />
-        <div className="lg:flex mb-5">
+        <div className="md:flex mb-5">
             {
                 workData.map((data, index) => <WorkData
                 key={index}
@@ -39,7 +39,7 @@ const FindWork = () => {
                 ></WorkData>)
             }
         </div>
-        <button className="w-48 lg:w-52 h-10 lg:h-12 rounded-md lg:rounded-lg uppercase font-semibold bg-[#FFFFFF] text-[#2F56BC]">
+        <button className="w-48 md:w-52 h-10 md:h-12 rounded-md md:rounded-lg uppercase font-semibold bg-[#FFFFFF] text-[#2F56BC]">
           find opportunities
         </button>
       </div>

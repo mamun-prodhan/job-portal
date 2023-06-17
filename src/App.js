@@ -6,6 +6,7 @@ import Contractors from "./components/Contractors/Contractors";
 import Clients from "./components/Clients/Clients";
 import TradeBrittany from "./components/TradeBrittany/TradeBrittany";
 import FindWork from "./components/FindWork/FindWork";
+import Help from "./components/Help/Help";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Clients></Clients>
       <TradeBrittany></TradeBrittany>
       <FindWork></FindWork>
+      <Help></Help>
     </div>
   );
 }

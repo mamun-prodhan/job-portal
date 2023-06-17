@@ -26,7 +26,7 @@ const TradeBrittany = () => {
     ]
 
   return (
-    <div className="lg:flex items-center h-[745px] mb-32">
+    <div className="lg:flex items-center h-[745px] mb-16 md:mb-24">
       <div className="p-6 lg:p-16 mt-0 lg:h-full rounded-lg  lg:w-3/5  text-[#081D03] bg-[#F5F5F5]">
         <h2 className="mb-3 text-3xl lg:text-5xl font-semibold">
         Why people turn to <br /> Find trade Brittany 
