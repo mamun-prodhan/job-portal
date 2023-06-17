@@ -26,10 +26,10 @@ const Clients = () => {
         <img className="w-full rounded-xl object-cover h-72 lg:h-full" src={image} alt="photos" />
       </div>
       <div className="absolute flex justify-end transform -translate-y-1/2 left-6 md:left-16 top-1/4 md:top-28">
-        <p className="text-xl md:text-2xl text-[#FFFFFF] mb-6">FOR CLIENTS</p>
+        <p className="text-xl lg:text-2xl text-[#FFFFFF] mb-6">FOR CLIENTS</p>
       </div>
       <div className="absolute flex justify-end transform -translate-y-36 md:-translate-y-1/2 left-6 md:left-16 top-52">
-        <h2 className="mt-3 md:mt-0 md:mb-3 text-3xl w-80 md:w-60 md:text-5xl font-semibold text-[#FFFFFF] leading-none">
+        <h2 className="mt-3 md:mt-0 md:mb-6 text-3xl w-80 md:w-60 md:text-5xl font-semibold text-[#FFFFFF] leading-none">
         Find talent your way 
         </h2>
       </div>

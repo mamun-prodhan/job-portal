@@ -34,7 +34,7 @@ const Steps = () => {
 
   return (
     <div className="p-6 mb-16 md:mb-24 lg:p-0">
-      <h2 className="font-normal text-2xl lg:text-4xl text-center  mb-5 lg:mb-10">
+      <h2 className="font-normal text-3xl lg:text-5xl text-center  mb-6 lg:mb-12">
         Find a tradesperson have never been <span>so easy</span>
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4">

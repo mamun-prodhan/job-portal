@@ -41,7 +41,7 @@ const TradeBrittany = () => {
         </div>
       </div>
       <div className="p-12 lg:p-24 mt-0 lg:h-full lg:w-2/5 rounded-lg lg:ml-10  bg-[#4EA62F]">
-        <p className="text-[#FFFFFF] lg:mt-40 text-2xl lg:text-3xl font-semibold">
+        <p className="text-[#FFFFFF] lg:mt-40 text-2xl lg:text-4xl font-semibold">
             Connecting <br />
             Needs, <br />
             Empowering <br />

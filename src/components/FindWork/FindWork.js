@@ -26,7 +26,7 @@ const FindWork = () => {
           Find great <br />
           work
         </h2> 
-        <p className="mb-3 md:mb-5">
+        <p className="mb-3 md:mb-6">
           Whether just starting out or looking to improve or grow your business,
           our expert advice can help you on the road to success.
         </p>

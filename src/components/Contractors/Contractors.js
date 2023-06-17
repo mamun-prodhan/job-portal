@@ -30,7 +30,7 @@ const Contractors = () => {
       </div>
       {/* text div */}
       <div className="p-6 lg:p-16  lg:w-1/2 mt-0 lg:mt-6 text-[#FFFFFF]">
-        <p className="text-2xl mb-6">FOR CONTRACTORS</p>
+        <p className="text-xl lg:text-2xl mb-6">FOR CONTRACTORS</p>
         <h2 className="mb-3 text-3xl lg:text-5xl font-semibold">
           This is how <br />
           <span className="text-[#A4E4B7]">
