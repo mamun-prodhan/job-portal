@@ -90,7 +90,7 @@ const PopularTrades = () => {
     return (
         <div className='mb-12 lg:mb-24 p-6 bg-[#F8FAF7]'>
              <h2 className='text-4xl font-bold text-center mb-6 lg:mb-12'>Popular trades</h2>
-             <div className='grid grid-cols-2 lg:grid-cols-8 gap-6 lg:gap-2'>
+             <div className='grid grid-cols-2 lg:grid-cols-8 gap-x-4 gap-y-8'>
                 {
                     tradesData.map((trade, index) => <Trade
                     key={index}
