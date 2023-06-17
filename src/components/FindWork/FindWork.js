@@ -16,16 +16,16 @@ const FindWork = () => {
   ];
 
   return (
-    <div className="mb-16 md:mb-24 md:flex">
-      <div className="w-full md:w-1/2 rounded-lg">
+    <div className="mb-16 md:mb-24 lg:flex">
+      <div className="w-full lg:w-1/2 rounded-lg">
         <img src={image} alt="" />
       </div>
-      <div className="p-6 md:p-16  md:w-1/2 text-[#FFFFFF] bg-[#2F56BC] rounded-r-lg">
+      <div className="p-6 md:p-16  lg:w-1/2 text-[#FFFFFF] bg-[#2F56BC] rounded-r-lg">
         <p className="text-2xl mb-5">FOR CONTRACTORS</p>
         <h2 className="mb-3 md:mb-5 text-3xl md:text-5xl font-semibold">
           Find great <br />
           work
-        </h2>
+        </h2> 
         <p className="mb-3 md:mb-5">
           Whether just starting out or looking to improve or grow your business,
           our expert advice can help you on the road to success.

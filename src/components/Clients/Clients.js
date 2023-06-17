@@ -21,24 +21,24 @@ const Clients = () => {
     ]
 
   return (
-    <div className="relative mb-32">
+    <div className="relative mb-16 md:mb-24">
       <div>
-        <img className="w-full rounded-xl" src={image} alt="photos" />
+        <img className="w-full rounded-xl object-cover h-72 lg:h-full" src={image} alt="photos" />
       </div>
-      <div className="absolute flex justify-end transform -translate-y-1/2 left-10 md:left-24 top-32">
-        <p className="text-2xl text-[#FFFFFF] mb-6">FOR CLIENTS</p>
+      <div className="absolute flex justify-end transform -translate-y-1/2 left-6 md:left-16 top-1/4 md:top-28">
+        <p className="text-xl md:text-2xl text-[#FFFFFF] mb-6">FOR CLIENTS</p>
       </div>
-      <div className="absolute flex justify-end transform -translate-y-1/2 left-10 md:left-24 top-52">
-        <h2 className="mb-3 text-2xl lg:text-5xl font-semibold text-[#FFFFFF]">
-        Find talent <br /> your way 
+      <div className="absolute flex justify-end transform -translate-y-36 md:-translate-y-1/2 left-6 md:left-16 top-52">
+        <h2 className="mt-3 md:mt-0 md:mb-3 text-3xl w-80 md:w-60 md:text-5xl font-semibold text-[#FFFFFF] leading-none">
+        Find talent your way 
         </h2>
       </div>
-      <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-10 md:left-24 top-72">
-        <p className="text-white hidden lg:block">
+      <div className="absolute flex justify-end transform -translate-y-44 md:-translate-y-1/2 w-80 md:w-2/5 left-6 md:left-16 top-72">
+        <p className="text-white md:text-xl md:mt-6">
           Whether just starting out or looking to improve or grow your business, our expert advice can help you on the road to success.
         </p>
       </div>
-      <div className="absolute flex items-center transform -translate-y-1/2 w-5/6 left-10 md:left-24 md:top-3/4 top-3/4">
+      <div className="absolute mt-5 md:mt-0 flex items-center transform -translate-y-1/2 w-5/6 left-6 md:left-16 top-3/4 md:top-[80%]">
             {
                 clients.map((client, index) => <Client
                 key={index}
