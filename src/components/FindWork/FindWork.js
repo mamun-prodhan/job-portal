@@ -31,7 +31,7 @@ const FindWork = () => {
           our expert advice can help you on the road to success.
         </p>
         <hr className="mb-6 border border-solid border-[#FFFFFF]" />
-        <div className="md:flex mb-5">
+        <div className="md:flex mb-4">
             {
                 workData.map((data, index) => <WorkData
                 key={index}
