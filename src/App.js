@@ -5,6 +5,7 @@ import PopularTrades from "./components/PopularTrades/PopularTrades";
 import Contractors from "./components/Contractors/Contractors";
 import Clients from "./components/Clients/Clients";
 import TradeBrittany from "./components/TradeBrittany/TradeBrittany";
+import FindWork from "./components/FindWork/FindWork";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Contractors></Contractors>
       <Clients></Clients>
       <TradeBrittany></TradeBrittany>
+      <FindWork></FindWork>
     </div>
   );
 }
