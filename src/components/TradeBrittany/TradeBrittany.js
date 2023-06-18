@@ -6,7 +6,7 @@ import TradeData from "../TradeData/TradeData";
 
 
 const TradeBrittany = () => {
-
+    // trades data array of objects
     const tradeDatas = [
         {
             image: img1,
@@ -27,10 +27,12 @@ const TradeBrittany = () => {
 
   return (
     <div className="lg:flex items-center h-[745px] mb-16 md:mb-24">
-      <div className="p-6 lg:p-16 mt-0 lg:h-full rounded-lg  lg:w-3/5  text-[#081D03] bg-[#F5F5F5]">
+      <div className="p-6 lg:p-16 mt-0 lg:h-full lg:w-3/5 rounded-lg text-[#081D03] bg-[#F5F5F5]">
+        {/* heading */}
         <h2 className="mb-3 text-3xl lg:text-5xl font-semibold">
         Why people turn to <br /> Find trade Brittany 
         </h2>
+        {/* text trade data */}
         <div className="mt-5 lg:mt-10">
             {
                 tradeDatas.map((tradeData, index) => <TradeData

@@ -1,7 +1,7 @@
 import React from "react";
 
 const ContractorData = (props) => {
-
+    // destructuring the props
     const {image, details} = props.data;
 
   return (

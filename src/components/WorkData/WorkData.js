@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WorkData = (props) => {
-
+    // destructuring the props
     const {title} = props.data;
 
     return (

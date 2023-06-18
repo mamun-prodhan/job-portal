@@ -1,6 +1,7 @@
 import React from "react";
 
 const Trade = (props) => {
+  // destructuring the props
   const { image, title } = props.trade;
 
   return (

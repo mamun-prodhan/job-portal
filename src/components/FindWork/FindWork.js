@@ -3,6 +3,7 @@ import image from "../../assets/images/work.jpg";
 import WorkData from "../WorkData/WorkData";
 
 const FindWork = () => {
+  // work data array of objects
   const workData = [
     {
       title: "Find opportunities for every stage of your  career",
@@ -17,28 +18,29 @@ const FindWork = () => {
 
   return (
     <div className="mb-16 md:mb-24 lg:flex">
+      {/* image */}
       <div className="w-full lg:w-1/2 rounded-lg">
         <img src={image} alt="" />
       </div>
+      {/* text */}
       <div className="p-6 md:p-16  lg:w-1/2 text-[#FFFFFF] bg-[#2F56BC] rounded-r-lg">
         <p className="text-2xl mb-5">FOR CONTRACTORS</p>
         <h2 className="mb-3 md:mb-5 text-3xl md:text-5xl font-semibold">
           Find great <br />
           work
-        </h2> 
+        </h2>
         <p className="mb-3 md:mb-6">
           Whether just starting out or looking to improve or grow your business,
           our expert advice can help you on the road to success.
         </p>
         <hr className="mb-6 border border-solid border-[#FFFFFF]" />
+        {/* work data */}
         <div className="md:flex mb-4">
-            {
-                workData.map((data, index) => <WorkData
-                key={index}
-                data={data}
-                ></WorkData>)
-            }
+          {workData.map((data, index) => (
+            <WorkData key={index} data={data}></WorkData>
+          ))}
         </div>
+        {/* button */}
         <button className="w-48 md:w-52 h-10 md:h-12 rounded-md md:rounded-lg uppercase font-semibold bg-[#FFFFFF] text-[#2F56BC]">
           find opportunities
         </button>

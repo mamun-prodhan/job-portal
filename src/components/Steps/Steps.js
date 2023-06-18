@@ -3,6 +3,8 @@ import img from "../../assets/icons/send.svg";
 import Step from "../Step/Step";
 
 const Steps = () => {
+
+  // stepsData array of objects
   const stepsData = [
     {
       image: img,
@@ -33,10 +35,12 @@ const Steps = () => {
   ];
 
   return (
-    <div className="p-6 mb-16 md:mb-24 lg:p-0">
-      <h2 className="font-normal text-3xl lg:text-5xl text-center  mb-6 lg:mb-12">
+    <div className="p-6 lg:p-0 mb-16 md:mb-24">
+      {/* heading */}
+      <h2 className="mb-6 lg:mb-12 font-normal text-3xl lg:text-5xl text-center">
         Find a tradesperson have never been <span>so easy</span>
       </h2>
+      {/* steps card */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4">
         {stepsData.map((step, index) => (
           <Step key={index} step={step}></Step>

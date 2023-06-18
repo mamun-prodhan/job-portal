@@ -6,7 +6,7 @@ import image4 from "../../assets/small_icon/favorite.png";
 import ContractorData from "../ContractorData/ContractorData";
 
 const Contractors = () => {
-
+  // contractorsData array of objects
   const contractorsData = [
     {
       image: image2,
@@ -23,14 +23,14 @@ const Contractors = () => {
   ]
 
   return (
-    <div className="flex-row-reverse lg:flex items-center bg-[#28534E] rounded-lg mb-16 md:mb-24">
+    <div className="mb-16 md:mb-24 flex-row-reverse lg:flex items-center bg-[#28534E] rounded-lg">
       {/* image div */}
       <div className="p-6 lg:w-1/2">
-        <img className="w-100" src={image} alt="" />
+        <img className="w-100" src={image} alt="work" />
       </div>
       {/* text div */}
-      <div className="p-6 lg:p-16  lg:w-1/2 mt-0 lg:mt-6 text-[#FFFFFF]">
-        <p className="text-xl lg:text-2xl mb-6">FOR CONTRACTORS</p>
+      <div className="p-6 lg:p-16 mt-0 lg:mt-6 lg:w-1/2  text-[#FFFFFF]">
+        <p className="mb-6 text-xl lg:text-2xl">FOR CONTRACTORS</p>
         <h2 className="mb-3 text-3xl lg:text-5xl font-semibold">
           This is how <br />
           <span className="text-[#A4E4B7]">
@@ -42,7 +42,6 @@ const Contractors = () => {
           Whether just starting out or looking to improve or grow your
           business, our expert advice can help you on the road to success.
         </p>
-
         <div>
           {
             contractorsData.map((data, index) => <ContractorData
@@ -51,6 +50,7 @@ const Contractors = () => {
             ></ContractorData>)
           }
         </div>
+        {/* button */}
         <button className="w-32 lg:w-52 h-10 lg:h-12 mt-6 rounded-md lg:rounded-lg uppercase font-semibold lg:font-semibold text-[#28534E] bg-[#FFFFFF]">
           register now
         </button>

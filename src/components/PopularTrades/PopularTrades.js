@@ -18,7 +18,7 @@ import img16 from '../../assets/icons/kitchen.png';
 import Trade from '../Trade/Trade';
 
 const PopularTrades = () => {
-
+    // trades data array of object
     const tradesData = [
         {
             image: img1,
@@ -89,7 +89,9 @@ const PopularTrades = () => {
 
     return (
         <div className='mb-16 md:mb-24 p-6 bg-[#F8FAF7]'>
-             <h2 className='font-normal text-3xl lg:text-5xl text-center mb-12'>Popular trades</h2>
+            {/* heading */}
+             <h2 className='mb-12 font-normal text-3xl lg:text-5xl text-center'>Popular trades</h2>
+             {/* trade data card */}
              <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-x-4 gap-y-10'>
                 {
                     tradesData.map((trade, index) => <Trade
